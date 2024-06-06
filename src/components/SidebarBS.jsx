@@ -28,7 +28,7 @@ const items = [
     {title:'Plugins',icon:<IoFlashOutline className=" h-7 w-7"/>}
 ];
 
-export function Sidebar()
+export function SidebarBS()
 {
     return(
         <div className="bg-sb-blue h-screen w-0 md:w-64 duration-300 text-white">

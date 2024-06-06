@@ -22,6 +22,9 @@ export default {
         'xs':'420px',
         'md':'925px',
         'lg':'1220px',
+      },
+      boxShadow:{
+        'dim':'0 0 0 100vmax rgba(0, 0, 0, .3)'
       }
     },
   },
