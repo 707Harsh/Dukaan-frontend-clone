@@ -1,7 +1,7 @@
 export function PayoutCard1({title, payoutAmount, orderCount, paymentDate})
 {
     return(
-        <div className="text-white shadow">
+        <div className="text-white shadow overflow-hidden">
             <div className="bg-l-blue rounded-lg">
                 <div className="px-3 pt-3">{title}&nbsp;&nbsp;&nbsp;<span className="cursor-pointer border rounded-full px-2  text-sm ">?</span>
                 </div>
