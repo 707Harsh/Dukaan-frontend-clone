@@ -35,7 +35,7 @@ export function SidebarSS()
     const show = useRecoilValue(showAtom);
     console.log({show})
     return(
-        <div className={`bg-sb-blue h-screen ${show && "w-64"} w-0 text-white ease-out duration-300}`}>
+        <div className={`bg-sb-blue h-screen w-64 text-white transition-all duration-300 ease-in-out}`} style={{marginLeft:show?'0px':'-544px'}}>
             <div className={`${show && "grid"} ${!show && "hidden"} grid-cols-10 pt-1`}>
                 <div className="col-span-8 flex pl-1">
                 <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="70" height="70" viewBox="0 0 48 48"
